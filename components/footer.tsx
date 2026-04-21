@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-bold text-primary mb-4">Ferrero Inmobiliaria</h3>
+            <h3 className="text-lg font-bold text-primary mb-4">Grando Inmobiliaria</h3>
             <p className="text-sm text-muted-foreground">
               Tu socio de confianza para encontrar la propiedad perfecta. Conectamos personas con el hogar de sus suenos.
             </p>
@@ -39,7 +39,7 @@ export function Footer() {
         </div>
         
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Ferrero Inmobiliaria. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Grando Inmobiliaria. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

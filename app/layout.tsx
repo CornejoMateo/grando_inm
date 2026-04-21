@@ -7,21 +7,21 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Ferrero Inmobiliaria - Encuentra Tu Hogar Perfecto',
+  title: 'Grando Inmobiliaria - Encuentra Tu Hogar Perfecto',
   description: 'Descubre propiedades excepcionales en ubicaciones privilegiadas. Desde acogedores estudios hasta lujosos penthouses, te ayudamos a encontrar el hogar que se adapta a tu estilo de vida.',
   generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/f_icon.png',
+        url: '/icon.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/f_icon.png',
+        url: '/icon.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/f_icon.png',
+        url: '/icon.png',
         type: 'image/svg+xml',
       },
     ],
