@@ -2,11 +2,13 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu } from "lucide-react"
+import { ChevronRight, Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
   Sheet,
+  SheetDescription,
   SheetContent,
+  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -61,27 +63,38 @@ export function Navbar() {
               <span className="sr-only">Abrir menu</span>
             </Button>
           </SheetTrigger>
-          <SheetContent side="right" className="w-[300px]">
-            <SheetHeader>
+          <SheetContent side="right" className="w-[86vw] max-w-sm p-0">
+            <SheetHeader className="border-b bg-gradient-to-b from-primary/10 to-background pt-6 pr-12 pb-5 pl-5">
               <SheetTitle className="text-left text-primary">Grando Inmobiliaria</SheetTitle>
+              <SheetDescription className="text-left">
+                Navega rapido por las secciones principales.
+              </SheetDescription>
             </SheetHeader>
-            <nav className="flex flex-col gap-4 mt-8">
+
+            <nav className="mt-3 flex flex-col gap-2 px-3">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
                   onClick={() => setOpen(false)}
                   className={cn(
-                    "text-lg font-medium transition-colors hover:text-primary py-2",
+                    "group flex items-center justify-between rounded-lg border px-4 py-3 text-base font-medium transition-all",
                     pathname === link.href
-                      ? "text-primary"
-                      : "text-muted-foreground"
+                      ? "border-primary/35 bg-primary/10 text-primary"
+                      : "border-border/60 bg-muted/40 text-muted-foreground hover:border-primary/25 hover:bg-primary/5 hover:text-primary"
                   )}
                 >
-                  {link.label}
+                  <span>{link.label}</span>
+                  <ChevronRight className="h-4 w-4 opacity-60 transition-transform group-hover:translate-x-0.5 group-hover:opacity-100" />
                 </Link>
               ))}
             </nav>
+
+            <SheetFooter className="mt-auto border-t px-3 pt-3 pb-5">
+              <Button asChild className="w-full" onClick={() => setOpen(false)}>
+                <Link href="/properties">Ver propiedades</Link>
+              </Button>
+            </SheetFooter>
           </SheetContent>
         </Sheet>
       </div>
