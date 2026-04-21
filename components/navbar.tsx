@@ -31,9 +31,9 @@ export function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-2">
-          <Image src="/f_icon.png" alt="Logo Ferrero Inmobiliaria" width={100} height={100} className="flex-shrink-0" />
+          <Image src="/icon.png" alt="Logo Grando Inmobiliaria" width={70} height={70} className="flex-shrink-0" />
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-xl font-bold text-primary">Ferrero Inmobiliaria</span>
+            <span className="text-xl font-bold text-primary">Grando Inmobiliaria</span>
           </Link>
         </div>
 
@@ -65,7 +65,7 @@ export function Navbar() {
           </SheetTrigger>
           <SheetContent side="right" className="w-[86vw] max-w-sm p-0">
             <SheetHeader className="border-b bg-gradient-to-b from-primary/10 to-background pt-6 pr-12 pb-5 pl-5">
-              <SheetTitle className="text-left text-primary">Ferrero Inmobiliaria</SheetTitle>
+              <SheetTitle className="text-left text-primary">Grando Inmobiliaria</SheetTitle>
               <SheetDescription className="text-left">
                 Navega rapido por las secciones principales.
               </SheetDescription>

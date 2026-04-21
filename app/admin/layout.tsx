@@ -2,8 +2,8 @@ import { Metadata } from "next"
 import { AdminSidebar } from "@/components/admin-sidebar"
 
 export const metadata: Metadata = {
-  title: "Administracion | Ferrero Inmobiliaria",
-  description: "Panel de administracion de Ferrero Inmobiliaria",
+  title: "Administracion | Grando Inmobiliaria",
+  description: "Panel de administracion de Grando Inmobiliaria",
 }
 
 export default function AdminLayout({

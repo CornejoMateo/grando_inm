@@ -56,7 +56,7 @@ export default function AdminDashboard() {
     <div className="space-y-8">
       <div>
         <h1 className="text-3xl font-bold">Panel</h1>
-        <p className="text-muted-foreground mt-1">Panel de administracion de Ferrero Inmobiliaria</p>
+        <p className="text-muted-foreground mt-1">Panel de administracion de Grando Inmobiliaria</p>
       </div>
 
       {/* Main Stats */}

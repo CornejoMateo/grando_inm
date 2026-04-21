@@ -51,10 +51,11 @@ export function AdminSidebar() {
         )}
       >
         <div className="flex flex-col h-full">
+          {/* Logo */}
           <div className="flex items-center h-16 px-4 border-b border-sidebar-border">
             <Link href="/admin" className="flex items-center gap-2 min-w-0">
               <span className="text-sm font-semibold text-sidebar-primary truncate">
-                Ferrero Inmobiliaria
+                Grando Inmobiliaria
               </span>
             </Link>
             <span className="ml-2 text-xs bg-sidebar-accent text-sidebar-accent-foreground px-2 py-0.5 rounded">
