@@ -46,11 +46,11 @@ export function PropertyCard({ property }: PropertyCardProps) {
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-1.5">
               <Bed className="h-4 w-4" />
-              <span>{property.rooms} {property.rooms === 1 ? "Habitacion" : "Habitaciones"}</span>
+              <span>{property.rooms} {property.rooms === 1 ? "Habitación" : "Habitaciones"}</span>
             </div>
             <div className="flex items-center gap-1.5">
               <Bath className="h-4 w-4" />
-              <span>{property.bathrooms} {property.bathrooms === 1 ? "Bano" : "Banos"}</span>
+              <span>{property.bathrooms} {property.bathrooms === 1 ? "Baño" : "Baños"}</span>
             </div>
             <div className="flex items-center gap-1.5">
               <Square className="h-4 w-4" />
