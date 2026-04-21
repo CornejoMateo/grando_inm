@@ -14,7 +14,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-balance">
-              Encuentra tu hogar perfecto con <span className="text-primary">Grando Inmobiliaria</span>
+              Encuentra tu hogar perfecto con <span className="text-primary">Ferrero Inmobiliaria</span>
             </h1>
             <p className="mt-6 text-lg md:text-xl text-muted-foreground text-pretty max-w-2xl mx-auto">
               Descubre propiedades excepcionales en ubicaciones privilegiadas. Desde estudios acogedores hasta penthouses de lujo, te ayudamos a encontrar el hogar que se adapta a tu estilo de vida.

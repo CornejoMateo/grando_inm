@@ -4,7 +4,7 @@ import { PropertyFilters } from "@/components/property-filters"
 import { properties } from "@/lib/data"
 
 export const metadata: Metadata = {
-  title: "Propiedades | Grando Inmobiliaria",
+  title: "Propiedades | Ferrero Inmobiliaria",
   description: "Explora nuestra amplia coleccion de propiedades en alquiler.",
 }
 

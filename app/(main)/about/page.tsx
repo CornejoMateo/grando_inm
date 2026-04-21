@@ -4,8 +4,8 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Building2, Users, Award, Heart } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Nosotros | Grando Inmobiliaria",
-  description: "Conoce Grando Inmobiliaria: tu socio de confianza para encontrar la propiedad ideal.",
+  title: "Nosotros | Ferrero Inmobiliaria",
+  description: "Conoce Ferrero Inmobiliaria: tu socio de confianza para encontrar la propiedad ideal.",
 }
 
 const stats = [
@@ -46,7 +46,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-balance">
-              Sobre <span className="text-primary">Grando Inmobiliaria</span>
+              Sobre <span className="text-primary">Ferrero Inmobiliaria</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground text-pretty">
               Nos dedicamos a ayudarte a encontrar el lugar perfecto para vivir. Con anos de experiencia y pasion por el sector inmobiliario, conectamos personas con propiedades que se ajustan a su estilo de vida y aspiraciones.
@@ -80,7 +80,7 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Nuestra mision</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  En Grando Inmobiliaria creemos que encontrar la propiedad adecuada es mucho mas que una transaccion: se trata de descubrir un lugar donde se construyen recuerdos y se hacen realidad los suenos.
+                  En Ferrero Inmobiliaria creemos que encontrar la propiedad adecuada es mucho mas que una transaccion: se trata de descubrir un lugar donde se construyen recuerdos y se hacen realidad los suenos.
                 </p>
                 <p>
                   Nuestra mision es simplificar la busqueda de vivienda con informacion transparente, asesoria experta y atencion personalizada para cada cliente. Buscamos que cada persona encuentre una propiedad que realmente se sienta como su hogar.

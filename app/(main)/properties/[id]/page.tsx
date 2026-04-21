@@ -19,11 +19,11 @@ export async function generateMetadata({ params }: PropertyDetailPageProps): Pro
   const property = getPropertyById(id)
   
   if (!property) {
-    return { title: "Propiedad no encontrada | Grando Inmobiliaria" }
+    return { title: "Propiedad no encontrada | Ferrero Inmobiliaria" }
   }
 
   return {
-    title: `${property.title} | Grando Inmobiliaria`,
+    title: `${property.title} | Ferrero Inmobiliaria`,
     description: property.description,
   }
 }
